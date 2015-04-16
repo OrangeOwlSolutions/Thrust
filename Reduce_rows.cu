@@ -146,7 +146,7 @@ int main()
                         thrust::make_transform_iterator(thrust::make_counting_iterator(0), MulC<int>(Ncols))),
     thrust::make_permutation_iterator(
                         d_temp.begin() + Ncols - 1,
-                        thrust::make_transform_iterator(thrust::make_counting_iterator(0), MulC<int>(Ncols))) + Ncols,
+                        thrust::make_transform_iterator(thrust::make_counting_iterator(0), MulC<int>(Ncols))) + Nrows,
                 d_row_sums_3.begin());
 		
 	printf("Timing for approach #3 = %f\n", timerGPU.GetCounter());
