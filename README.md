@@ -6,3 +6,4 @@
 - ```min_element.cu```: calculate the minimum element of an array along with its position;
 - ```strided_reduction.cu```: sum every ```STRIDE``` elements of a vector;
 - ```Reduce_rows.cu```: reduce each row of a matrix, see [Reduce matrix rows with CUDA](http://www.orangeowlsolutions.com/archives/1239);
+- ```Reduce_columns.cu```: reduce each column of a matrix, see [Reduce matrix columns with CUDA](http://www.orangeowlsolutions.com/archives/1248);
