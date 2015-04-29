@@ -7,5 +7,5 @@
 - ```strided_reduction.cu```: sum every ```STRIDE``` elements of a vector;
 - ```Reduce_rows.cu```: reduce each row of a matrix, see [Reduce matrix rows with CUDA](http://www.orangeowlsolutions.com/archives/1239);
 - ```Reduce_columns.cu```: reduce each column of a matrix, see [Reduce matrix columns with CUDA](http://www.orangeowlsolutions.com/archives/1248);
-- ```Max_2_elements_of_each_row.cu```: determine the maximum 2 elements of each row, see [Determining the 2 largest elements and their positions in each matrix row with CUDA Thrust](http://stackoverflow.com/questions/29836583/determining-the-2-largest-elements-and-their-positions-in-each-matrix-row-with-c/29863832#29863832);
+- ```Max_2_elements_of_each_row.cu```: determine the maximum 2 elements of each row, see [Determining the 2 largest elements and their positions in each matrix row with CUDA Thrust](http://www.orangeowlsolutions.com/archives/1274);
 - ```Min_element_of_each_column.cu```: determine the least element of each column, see [Determining the least element and its position in each matrix column with CUDA Thrust](http://stackoverflow.com/questions/17698969/cuda-thrust-find-index-of-minimum-value-among-multiple-vectors/29841094#29841094);
