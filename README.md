@@ -9,5 +9,5 @@
 - ```Reduce_columns.cu```: reduce each column of a matrix, see [Reduce matrix columns with CUDA](http://www.orangeowlsolutions.com/archives/1248);
 - ```Max_2_elements_of_each_row.cu```: determine the maximum 2 elements of each row, see [Determining the 2 largest elements and their positions in each matrix row with CUDA Thrust](http://www.orangeowlsolutions.com/archives/1274);
 - ```Min_element_of_each_column.cu```: determine the least element of each column, see [Determining the least element and its position in each matrix column with CUDA Thrust](http://www.orangeowlsolutions.com/archives/1294);
-- ```Sort_rows.cu```: sort the rows of a matrix, see [Simultaneously sort many arrays with CUDA Thrust](http://stackoverflow.com/questions/8298728/sort-many-arrays-the-same-way-in-cuda-using-thrust/29959586#29959586);
+- ```Sort_rows.cu```: sort the rows of a matrix, see [Concurrently sorting many arrays with CUDA Thrust](http://www.orangeowlsolutions.com/archives/1297);
 - ```Reduce_by_key_with_tuple_key.cu```: reduction by key with key which is a tuple, see [CUDA Thrust reduction by key with a tuple key](http://stackoverflow.com/questions/10987973/cuda-thrust-reduction-by-key-with-a-tuple-key/29974565#29974565);
