@@ -65,9 +65,9 @@ class strided_range
 };
 
 
-/**************************************************************/
-/* CONVERT LINEAR INDEX TO ROW INDEX - NEEDED FOR APPROACH #1 */
-/**************************************************************/
+/*****************************************************************/
+/* CONVERT LINEAR INDEX TO COLUMN INDEX - NEEDED FOR APPROACH #1 */
+/*****************************************************************/
 template< typename T >
 struct mod_functor {
     __host__ __device__ T operator()(T a, T b) { return a % b; }
