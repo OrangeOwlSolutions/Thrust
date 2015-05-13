@@ -13,3 +13,5 @@
 - ```Reduce_by_key_with_tuple_key.cu```: reduction by key with key which is a tuple, see [CUDA Thrust reduction by key with a tuple key](http://stackoverflow.com/questions/10987973/cuda-thrust-reduction-by-key-with-a-tuple-key/29974565#29974565);
 - ```Row_reordering_by_key.cu```: reordering the rows of a matrix by key, see [???](???);
 - ```Reduce_columns_by_key.cu```: reducing the columns of a matrix by key, see [???](???);
+- ```Find_key_occurrences_and_first_positions.cu```: finding the position of the first occurrences of keys and counting the number of their occurrences, see [Finding the number of occurrences of keys and the positions of first occurrences of keys by CUDA Thrust](http://stackoverflow.com/questions/8792926/finding-key-frequency-and-distinct-key-positions-in-a-sorted-key-vector-with-thr);
+
