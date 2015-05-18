@@ -10,7 +10,7 @@
 - ```Max_2_elements_of_each_row.cu```: determine the maximum 2 elements of each row, see [Determining the 2 largest elements and their positions in each matrix row with CUDA Thrust](http://www.orangeowlsolutions.com/archives/1274);
 - ```Min_element_of_each_column.cu```: determine the least element of each column, see [Determining the least element and its position in each matrix column with CUDA Thrust](http://www.orangeowlsolutions.com/archives/1294);
 - ```Sort_rows.cu```: sort the rows of a matrix, see [Concurrently sorting many arrays with CUDA Thrust](http://www.orangeowlsolutions.com/archives/1297);
-- ```Reduce_by_key_with_tuple_key.cu```: reduction by key with key which is a tuple, see [CUDA Thrust reduction by key with a tuple key](http://stackoverflow.com/questions/10987973/cuda-thrust-reduction-by-key-with-a-tuple-key/29974565#29974565);
+- ```Reduce_by_key_with_tuple_key.cu```: reduction by key with key which is a tuple, see [Reduction by key with tuple key](http://www.orangeowlsolutions.com/archives/1302);
 - ```Row_reordering_by_key.cu```: reordering the rows of a matrix by key, see [???](???);
 - ```Reduce_columns_by_key.cu```: reducing the columns of a matrix by key, see [???](???);
 - ```Find_key_occurrences_and_first_positions.cu```: finding the position of the first occurrences of keys and counting the number of their occurrences, see [Finding the number of occurrences of keys and the positions of first occurrences of keys by CUDA Thrust](http://stackoverflow.com/questions/8792926/finding-key-frequency-and-distinct-key-positions-in-a-sorted-key-vector-with-thr);
