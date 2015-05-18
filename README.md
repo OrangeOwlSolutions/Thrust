@@ -14,4 +14,4 @@
 - ```Row_reordering_by_key.cu```: reordering the rows of a matrix by key, see [???](???);
 - ```Reduce_columns_by_key.cu```: reducing the columns of a matrix by key, see [???](???);
 - ```Find_key_occurrences_and_first_positions.cu```: finding the position of the first occurrences of keys and counting the number of their occurrences, see [Finding the number of occurrences of keys and the positions of first occurrences of keys by CUDA Thrust](http://stackoverflow.com/questions/8792926/finding-key-frequency-and-distinct-key-positions-in-a-sorted-key-vector-with-thr);
-
+- ```Row_scaling.cu```: scaling the rows of a matrix by a vector of coefficients, see [Scaling the rows of a matrix with CUDA](http://stackoverflow.com/questions/9290935/how-to-scale-rows-in-a-matrix/30311976#30311976);
