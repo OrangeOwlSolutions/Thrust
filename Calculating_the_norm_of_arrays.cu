@@ -13,7 +13,7 @@ int main()
 	/* SETTING UP THE PROBLEM */
 	/**************************/
   
-	const int N = 20;			// --- Number of rows of matrix 1
+	const int N = 20;			// --- Number of vector elements
 
 	// --- Random uniform integer distribution between 0 and 100
 	thrust::default_random_engine rng;
