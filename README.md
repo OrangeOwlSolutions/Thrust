@@ -17,5 +17,6 @@
 - ```Row_scaling.cu```: scaling the rows of a matrix by a vector of coefficients, see [Scaling the rows of a matrix with CUDA](http://www.orangeowlsolutions.com/archives/1325);
 - ```Replicate_array_multiple_times.cu```: replicate an array multiple times, see [Replicate a vector multiple times using CUDA Thrust](http://www.orangeowlsolutions.com/archives/1335);
 - ```Rowwise_Columnwise_operations_on_matrices.cu```: apply the same operation on matrix rows or columns, see [Row-wise/Column-wise operations on matrices with CUDA](http://www.orangeowlsolutions.com/archives/1341);
-- - ```Calculating_the_norm_of_arrays.cu```: calculate the l^2 norm of an array, see [???](???);
+- ```Calculating_the_norm_of_arrays.cu```: calculate the l^2 norm of an array, see [???](???);
+- ```Calculating_the_projection_of_a_vector_on_a_set.cu```: calculate the Euclidean distance between a vector and a set of vectors organized in a matrix, then selects the minimum, see [???](???);
 
