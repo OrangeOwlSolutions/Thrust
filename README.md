@@ -24,4 +24,4 @@
 - ```Find_minima_along_columns_along_with_their_row_indices.cu```: minima of the columns of a matrix along with their row indices, see [
 Find the minima of the rows of a matrix along with their corresponding column indices with CUDA Thrust](http://www.orangeowlsolutions.com/archives/1370);
 - ```Thrust_inside_user_written_kernels.cu```: using ```thrust::seq``` and ```thrust::device``` to call CUDA Thrust primitives from CUDA user written kernels, see [Thrust inside user written kernels](http://stackoverflow.com/questions/5510715/thrust-inside-user-written-kernels/31604431#31604431);
-
+- ```CostFunctionalCalculationThrust```: using Thrust to calculate the cost functional for global optimization involving a large number of unknowns, see [Cost functional calculation for global optimization in CUDA](http://stackoverflow.com/questions/11318756/cuda-vs-multithread-for-a-non-linear-optimization-of-a-complex-function/31957889#31957889);
