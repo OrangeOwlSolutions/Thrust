@@ -11,6 +11,7 @@
 - ```Min_element_of_each_column.cu```: determine the least element of each column, see [Determining the least element and its position in each matrix column with CUDA Thrust](http://www.orangeowlsolutions.com/archives/1294);
 - ```Sort_rows.cu```: sort the rows of a matrix, see [Concurrently sorting many arrays with CUDA Thrust](http://www.orangeowlsolutions.com/archives/1297);
 - ```Sort_tuples.cu```: sort tuples with a customized comparison operator, see [Sort tuples with CUDA Thrust](???);
+- ```Sort_by_key_with_tuple_key.cu```: sort a vector by a tuple key with a customized comparison operator, see [CUDA Thrust sort_by_key when the key is a tuple dealt with by zip_iterator's with custom comparison predicate](http://stackoverflow.com/questions/10077449/how-to-use-thrustsort-by-key-where-the-key-is-a-compund-key-zip-iterator-with/38009508#38009508);
 - ```Reduce_by_key_with_tuple_key_host.cu```: reduction by key with key which is a tuple, key and value arrays are ```host_vector```'s, see [Reduction by key with tuple key](http://stackoverflow.com/questions/10987973/cuda-thrust-reduction-by-key-with-a-tuple-key);
 - ```Reduce_by_key_with_tuple_key_device.cu```: reduction by key with key which is a tuple, key and value arrays are see regular, ```cudaMalloc```'ed vectors [Reduction by key with tuple key](http://stackoverflow.com/questions/10987973/cuda-thrust-reduction-by-key-with-a-tuple-key);
 - ```Row_reordering_by_key.cu```: reordering the rows of a matrix by key, see [Reordering matrix rows by key](http://www.orangeowlsolutions.com/archives/1311);
