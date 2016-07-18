@@ -31,3 +31,4 @@ Find the minima of the rows of a matrix along with their corresponding column in
 - ```ExponentialMovingAverageFilter.cu```: using Thrust to implement an exponential moving average filter described by a difference equation, see [Implementing an exponential moving average filter by CUDA Thrust](http://www.orangeowlsolutions.com/archives/879);
 - ```linspace.cu```: Emulating Matlab’s linspace command by CUDA Thrust, see [Emulating Matlab’s linspace command by CUDA Thrust](http://www.orangeowlsolutions.com/archives/830);
 - ```colon.cu```: Emulating Matlab’s colon operator by CUDA Thrust, see [Emulating Matlab’s colon operator by CUDA Thrust](http://www.orangeowlsolutions.com/archives/825);
+- ```SaxpyPlaceholders.cu```: Using the placeholder technique to implement saxpy operation with CUDA Thrust, see [???](???);
