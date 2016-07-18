@@ -2,6 +2,9 @@
 #include <thrust/functional.h>
 #include <thrust/transform.h>
 
+// Available for device operations only from CUDA 8.0 (experimental stage)
+// Compile with the flag --expt-extended-lambda
+
 using namespace thrust::placeholders;
 
 int main(void)
