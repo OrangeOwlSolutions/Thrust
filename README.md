@@ -32,4 +32,4 @@ Find the minima of the rows of a matrix along with their corresponding column in
 - ```linspace.cu```: Emulating Matlab’s linspace command by CUDA Thrust, see [Emulating Matlab’s linspace command by CUDA Thrust](http://www.orangeowlsolutions.com/archives/830);
 - ```colon.cu```: Emulating Matlab’s colon operator by CUDA Thrust, see [Emulating Matlab’s colon operator by CUDA Thrust](http://www.orangeowlsolutions.com/archives/825);
 - ```SaxpyPlaceholders.cu```: Using the placeholder technique to implement saxpy operation with CUDA Thrust, see [???](???);
-- ```SaxpyLambdas.cu```: Using lambda expressions to implement saxpy operation with CUDA Thrust, see [???](???);
+- ```SaxpyLambdas.cu```: Using lambda expressions to implement saxpy operation with CUDA Thrust, see [Lambda expressions with CUDA](http://stackoverflow.com/questions/30438538/does-cuda-7-fully-support-lambda-on-device-code/38437914#38437914);
